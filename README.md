@@ -1,4 +1,4 @@
-TWRP Device configuration for Realme 7i
+PBRP Device configuration for Realme 7i (RMX2103)
 =============================================
 
 ![noah](https://github.com/Wave-Project/stuff/raw/main/devices/noah-wave.png)
@@ -9,7 +9,7 @@ TWRP Device configuration for Realme 7i
 ```sh
 . build/envsetup.sh
 export LC_ALL=C
-lunch omni_noah-eng
+lunch omni_RMX2103-eng
 mka -jX clobber && mka -jX recoveryimage
 ```
 Note: 'X' in `mka -jX recoveryimage` is the number of cores your processor has.
