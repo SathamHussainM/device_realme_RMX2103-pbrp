@@ -15,4 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_noah.mk
+     $(LOCAL_DIR)/omni_RMX2103.mk
+
+COMMON_LUNCH_CHOICES := omni_RMX2103-eng

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/noah
+DEVICE_PATH := device/realme/RMX2103
 
 # Architecture
 TARGET_ARCH := arm64
@@ -40,7 +40,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX2103,RMX2103L1
+TARGET_OTA_ASSERT_DEVICE := RMX2103,RMX2103PU,RMX2103L1
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
