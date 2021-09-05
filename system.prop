@@ -1,4 +1,10 @@
-vendor.gatekeeper.disable_spu=true
 ro.boot.dynamic_partitions=true
-sys.usb.controller=4e00000.dwc3
+ro.product.board=bengal
+ro.board.platform=bengal
 ro.adb.secure=0
+ro.product.name=RMX2103
+ro.product.product.device=RMX2103
+sys.usb.controller=4e00000.dwc3
+persist.sys.isUsbOtgEnabled=true
+vendor.gatekeeper.disable_spu=true
+fbe.metadata.wrappedkey=true

@@ -11,7 +11,7 @@ engineering	/engineering      ext4
 preload_common	/preload_common	  ext4
 
 /metadata           ext4      /dev/block/bootdevice/by-name/metadata                                flags=display="Metadata";backup=1;wrappedkey
-/data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=fileencryption=ice:aes-256-cts;wrappedkey
+/data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";fileencryption=ice:aes-256-cts;wrappedkey;keydirectory=/metadata/vold/metadata_encryption
 /boot               emmc      /dev/block/bootdevice/by-name/boot
 /dtbo               emmc      /dev/block/bootdevice/by-name/dtbo                                    flags=backup=1;display="Dtbo";flashimg=1
 /cache              ext4      /dev/block/bootdevice/by-name/cache
